@@ -1,15 +1,15 @@
 {
-  "description": "Blocks Ads on Twitch.tv.",
+  "description": "Blokeando ads en tuish >:)",
   "manifest_version": 3,
-  "name": "Twitch Adblock",
-  "version": "5.4.0",
+  "name": "Adblock para tuish de Xyz",
+  "version": "65536.65536",
   "icons": {
     "48": "icons/twitch-adblock-48x48.png",
     "96": "icons/twitch-adblock-96x96.png"
   },
   "action": {
     "default_icon": "icons/twitch-adblock-32x32.png",
-    "default_title": "Twitch Adblock",
+    "default_title": "Adblock para tuish de Xyz",
     "default_popup": "popup/index.html"
   },
   "options_ui": {
