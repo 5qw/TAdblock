@@ -4,11 +4,11 @@
   "name": "Twitch Adblock",
   "version": "5.4.0",
   "icons": {
-    "48": "icons/twitch-adblock-48x48.png",
-    "96": "icons/twitch-adblock-96x96.png"
+    "48": "icons/ico48.png",
+    "96": "icons/ico96.png"
   },
   "action": {
-    "default_icon": "icons/twitch-adblock-32x32.png",
+    "default_icon": "icons/ico32.png",
     "default_title": "Twitch Adblock",
     "default_popup": "popup/index.html"
   },
