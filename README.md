@@ -7,13 +7,13 @@
 * Bloquea todos los anuncios de Twitch
 
 ⚙️ » <b> Instalación recomendada:</b>
-* Download the latest .ZIP Archive
-* Extract the ZIP Archive
-* Open up Chrome and in your Web Browser URL, enter: ```chrome://extensions```
-* Enable the Developer Mode toggle, found in the top right of this view (typically) of the extensions page in your browser.
-* Click Load unpacked Extension
-* Navigate into the extracted folder from the ZIP Archive and select the folder chrome.
+* Descargue el archivo .ZIP más reciente
+* Extraiga el archivo ZIP
+* Abre Chrome y en la URL de tu navegador web, ingresa: ```chrome://extensions```
+* Habilite el modo de desarrollador, que se encuentra en la parte superior derecha de esta vista (generalmente) de la página de extensiones en su navegador.
+* Haga clic en Cargar extensión desempaquetada
+* Navegue a la carpeta extraída del archivo ZIP y seleccione la carpeta cromo.
 
 📦 » <b> Desinstalación: </b>
-* Open up Chrome and in your Web Browser URL, enter: ```chrome://extensions```
-* Search the extension and click Remove
+* Abre Chrome y en la URL de tu navegador web, ingresa: ```chrome://extensions```
+* Busque la extensión y haga clic en Eliminar
