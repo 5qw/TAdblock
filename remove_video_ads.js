@@ -135,7 +135,7 @@ window.Worker = class Worker extends oldWorker {
                 if (adBlockDiv == null) {
                     adBlockDiv = getAdBlockDiv();
                 }
-                adBlockDiv.P.textContent = 'Quitando anunsios @xyz...';
+                adBlockDiv.P.textContent = 'Se están bloqueando anuncios | @xyz <3';
                 adBlockDiv.style.display = 'block';
             } else if (e.data.key == 'HideAdBlockBanner') {
                 if (adBlockDiv == null) {
@@ -444,7 +444,7 @@ async function processM3U8(url, textStr, realFetch, playerType) {
         }
     } else {
         if (WasShowingAd) {
-            console.log("Anuncios blokeados, cargando calidad anterior");
+            console.log("Se han bloqueado los anuncios, se está restaurando la calidad original del streaming");
             WasShowingAd = false;
             //Here we put player back to original quality and remove the blocking message.
             postMessage({

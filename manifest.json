@@ -1,7 +1,7 @@
 {
-  "description": "Blokeando ads en tuish >:)",
+  "description": "Bloqueando anuncios en TWITCH >:)",
   "manifest_version": 3,
-  "name": "Adblock para tuish de Xyz",
+  "name": "Adblock para TWITCH | By @xyz",
   "version": "65536.65536",
   "icons": {
     "48": "icons/twitch-adblock-48x48.png",
@@ -9,7 +9,7 @@
   },
   "action": {
     "default_icon": "icons/twitch-adblock-32x32.png",
-    "default_title": "Adblock para tuish de Xyz",
+    "default_title": "Adblock para TWITCH | By @xyz",
     "default_popup": "popup/index.html"
   },
   "options_ui": {
