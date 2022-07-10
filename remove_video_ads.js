@@ -135,7 +135,7 @@ window.Worker = class Worker extends oldWorker {
                 if (adBlockDiv == null) {
                     adBlockDiv = getAdBlockDiv();
                 }
-                adBlockDiv.P.textContent = 'Se están bloqueando anuncios | @xyz <3';
+                adBlockDiv.P.textContent = 'xyz ︻┳テ=一 Ads';
                 adBlockDiv.style.display = 'block';
             } else if (e.data.key == 'HideAdBlockBanner') {
                 if (adBlockDiv == null) {
