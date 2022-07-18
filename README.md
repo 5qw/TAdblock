@@ -3,6 +3,9 @@
     <h5 align="center"> <a href="https://www.amazon.com/amazonprime/">💲 Apoya a Twitch comprando Amazon Prime 💲</a> </h5>
 </center>
 
+⚠ » <b> Aviso: </b>
+Se recomienda el uso de la última versión disponible en este repositorio, todas las anteriores quedarán sin soporte.
+
 🧩 » <b> Características: </b>
 * Bloquea todos los anuncios de Twitch
 
