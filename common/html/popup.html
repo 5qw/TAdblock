@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="../css/toggle.css">
+</head>
+
+<body>
+    <div class="container" id="adblockbutton" aria-label tabindex="0">
+        <div class="center">
+            <div class="icon" id="adblocktext" width="100"></div>
+        </div>
+    </div>
+    <hr>
+    <p id="watching" style="margin-left: 12px;"></p>
+    <hr>
+    <a href="https://github.com/5qw/TAdblock" target="_blank"><img src="../img/github.png" alt="Github" height="42px" width="42px"></a>
+    <div class="buttonlog hover" id="buttonlog">
+        <div class="text">Ajustes</div>
+    </div>
+    <div class="log" style="display: none;">
+        <div class="toggle hover">
+            <div style="margin: 10px;">
+                <label class="switch">
+                    <input type="checkbox" id="toggleProxy">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div>
+                Autenticación de Proxy
+            </div>
+        </div>
+        <div class="toggle hover">
+            <div style="margin: 10px;">
+                <label class="switch">
+                    <input type="checkbox" id="toggleCustomProxy" disable>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div>
+                Proxy personalizado
+            </div>
+        </div>
+        </br>
+        <textarea class="textarea"></textarea>
+    </div>
+    <script type="text/javascript" src="../js/popup.js"></script>
+</body>
+
+</html>
