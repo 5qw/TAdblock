@@ -10,7 +10,7 @@ const logger = {
   },
 };
 
-logger.log("Quitando anuncios...");
+logger.log("Initializing..");
 
 chrome.storage.onChanged.addListener(function (changes, namespace) {
   for (let [key, { oldValue, newValue }] of Object.entries(changes)) {
@@ -52,4 +52,4 @@ chrome.runtime.onInstalled.addListener(function (details) {
   }
 });
 
-logger.log("Sin anuncios!");
+logger.log("Initialized");
