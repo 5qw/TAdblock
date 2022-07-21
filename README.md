@@ -1,22 +1,21 @@
-<center>
-    <h1 align="center">🔮 Twitch Adblock 🔮</h1>
-    <h5 align="center"> <a href="https://www.amazon.com/amazonprime/">💲 Apoya a Twitch comprando Amazon Prime 💲</a> </h5>
-</center>
+<p align="center"> <img src="https://github.com/5qw/TAdblock/raw/main/images/logov2-128.png"> </p>
 
-Este repositorio contiene tanto el codigo fuente (accesible para todos) como los archivos necesarios para instalar la extensión TAdblock. <br>
+## <p align="center"> 🔮 Twitch Adblock 🔮 </p>
+<p align="center"> <a href="https://www.amazon.com/amazonprime/">💲 Apoya a Twitch comprando Amazon Prime 💲</a> </p>
 
-## 🧩 » <b> Características: </b>
-* Bloquea todos los anuncios de Twitch
-* Solo disponible para navegadores basados en chromium
+<p align="center"> <img src="https://img.shields.io/github/stars/5qw/TAdblock?label=Stars"> <img src="https://img.shields.io/badge/license-GPLv3-green.svg?label=License"> </p>
+
+## 🧩 » <b> Información: </b>
+TAdblock es una extensión para bloquear anuncios en Twitch. Inicia todos los streamings de Twitch que estés viendo a través de un servidor proxy, y si detecta un anuncio lo elimina, continuando el streaming del canal que estás viendo sin anuncios.
 
 ## ⚙️ » <b> Instalación recomendada:</b>
-* Descargue el archivo .ZIP más reciente
-* Extraiga el archivo ZIP
-* Abre Chrome y en la URL de tu navegador web, ingresa: ```chrome://extensions```
-* Habilite el modo de desarrollador, que se encuentra en la parte superior derecha de esta vista (generalmente) de la página de extensiones en su navegador.
-* Haga clic en Cargar extensión desempaquetada
-* Navegue a la carpeta extraída del archivo ZIP y seleccione la carpeta cromo.
+* Descargue el archivo .ZIP más reciente → <a href="https://github.com/5qw/TAdblock/releases/latest/download/TAdblock.rar">Click aquí</a>.
+* Extraer el archivo ZIP.
+* Abre Chrome y en la URL, ingresa: ```chrome://extensions```.
+* Habilitar el modo de desarrollador, que se encuentra en la parte superior derecha de esta vista (generalmente) de la página.
+* Clic en "Cargar extensión desempaquetada".
+* Seleccionar la carpeta extraída del archivo ZIP.
 
 ## 📦 » <b> Desinstalación: </b>
-* Abre Chrome y en la URL de tu navegador web, ingresa: ```chrome://extensions```
-* Busque la extensión y haga clic en Eliminar
+* Abre Chrome y en la URL, ingresa: ```chrome://extensions```.
+* Buscar la extensión "TAdblock" y haga clic en "Eliminar"/"Quitar".
