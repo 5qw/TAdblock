@@ -6,7 +6,7 @@
 <p align="center"> <img src="https://img.shields.io/github/stars/5qw/TAdblock?label=Stars"> <img src="https://img.shields.io/badge/license-GPLv3-green.svg?label=License"> </p>
 
 ## 🧩 » <b> Información: </b>
-TAdblock es una extensión para bloquear anuncios en Twitch. Inicia todos los streamings de Twitch que estés viendo a través de un servidor proxy, y si detecta un anuncio lo elimina, continuando el streaming del canal que estás viendo sin anuncios. Además la extensión <b> NO RECOLECTA </b> ningún tipo de datos del usuario. <br> <br>
+TAdblock es una extensión para bloquear anuncios en Twitch. Inicia todos los streamings de Twitch que estés viendo a través de un servidor proxy, y si detecta un anuncio lo elimina, continuando el streaming del canal que estás viendo sin anuncios. <br> Además la extensión <b> NO RECOLECTA </b> ningún tipo de datos del usuario. <br> <br>
 
 Funcionamiento básico:
 
