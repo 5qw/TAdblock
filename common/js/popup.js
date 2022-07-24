@@ -28,7 +28,7 @@ var channel = "";
 function inputChange(e) {
   if (isActive) {
     document.getElementById("adblocktext").classList.add("disable");
-    document.getElementById("watching").textContent = "Disactived on : " + channel;
+    document.getElementById("watching").textContent = "Desactivado para: " + channel;
 
     if (!whiteList.includes(channel)) {
       whiteList.push(channel);
@@ -38,7 +38,7 @@ function inputChange(e) {
     isActive = false;
   } else {
     document.getElementById("adblocktext").classList.remove("disable");
-    document.getElementById("watching").textContent = "Actived on : " + channel;
+    document.getElementById("watching").textContent = "Activado en: " + channel;
     for (var i = 0; i < whiteList.length; i++) {
       if (whiteList[i] === channel) {
         whiteList.splice(i, 1);
@@ -78,19 +78,19 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, function (tabs) {
         }
         if (isActive) {
           document.getElementById("adblocktext").classList.remove("disable");
-          document.getElementById("watching").textContent = "Actived on : " + channel;
+          document.getElementById("watching").textContent = "Activado en: " + channel;
           return;
         } else {
           document.getElementById("adblocktext").classList.add("disable");
-          document.getElementById("watching").textContent = "Disabled on : " + channel;
+          document.getElementById("watching").textContent = "Desactivado para: " + channel;
           return;
         }
       }
-      document.getElementById("watching").textContent = "Actived on : " + channel;
+      document.getElementById("watching").textContent = "Activado en: " + channel;
     } else {
       document.getElementById("adblockbutton").onclick = null;
       document.getElementById("adblocktext").classList.add("disable");
-      document.getElementById("watching").textContent = "Waiting channel";
+      document.getElementById("watching").textContent = "Esperando canal";
     }
   });
 });
